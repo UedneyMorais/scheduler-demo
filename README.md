@@ -42,17 +42,16 @@ scheduler/<br>
 │ ├── java/<br>
 │ │ └── com/example/scheduler/<br>
 │ │ ├── SchedulerApplication.java<br>
+│ │ ├── config/<br>
+│ │ │ └── SchedulingConfig.java<br>
 │ │ ├── tasks/<br>
-│ │ │ └── SimpleTask.java<br>
-│ │ └── services/<br>
-│ │ └── ReportService.java<br>
+│ │ │ └── CronTask.java<br>
+│ │ │ └── FixedDelayTask.java<br>
+│ │ │ └── FixedRateTask.java<br>
+│ │ │ └── InitialDelayTask.java<br>
 │ └── resources/<br>
 │ └── application.properties<br>
 └── pom.xml<br>
-
-yaml
-Copiar
-Editar
 
 ---
 
@@ -67,6 +66,7 @@ cd scheduler
 ./mvnw spring-boot:run
 A aplicação irá iniciar em http://localhost:8080
 As tarefas serão executadas no console conforme o agendamento configurado.
+```
 
 ⏱️ Exemplos de Expressões CRON
 CRON Expression	Significado
@@ -79,23 +79,15 @@ A sintaxe CRON no Spring possui 6 campos:
 segundo minuto hora dia mês dia-da-semana
 
 📦 Agendamentos usados no projeto
-java
-Copiar
-Editar
+```bash
 @Scheduled(fixedRate = 5000)       // Executa a cada 5 segundos, independente da duração
+```
+```bash
 @Scheduled(fixedDelay = 5000)      // Espera 5 segundos após a conclusão anterior
+```
+```bash
 @Scheduled(cron = "*/10 * * * * *") // A cada 10 segundos (usando CRON)
-🧪 Demonstração com Thread.sleep
-Algumas tarefas usam Thread.sleep(3000) para simular tempo de execução.
-
-Isso ajuda a visualizar diferenças entre fixedRate e fixedDelay.
-
-🧹 Boas práticas aplicadas
-Separação entre lógica de negócio (service) e agendamento (task)
-
-Evita códigos com lógica pesada dentro da classe agendadora
-
-Código comentado para facilitar aprendizado
+```
 
 🤝 Contribuição
 Contribuições são bem-vindas!
