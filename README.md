@@ -11,7 +11,7 @@
 ## 📽️ Vídeo completo no YouTube
 
 📺 **Assista no canal:**  
-🔗 [https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s](https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s)
+🔗 [https://www.youtube.com/@uedneymoraisdev](https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s)
 
 ---
 
@@ -114,5 +114,4 @@ Abra um Pull Request
 Este projeto está sob a licença MIT.
 
 💬 Autor
-Feito com 💻 por Seu Nome
-🔗 YouTube • GitHub • Instagram
+Feito com 💻 por Uedney C. Morais
