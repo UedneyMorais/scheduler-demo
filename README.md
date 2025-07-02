@@ -11,7 +11,7 @@
 ## 📽️ Vídeo completo no YouTube
 
 📺 **Assista no canal:**  
-🔗 [https://www.youtube.com/@uedneymoraisdev](https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s) *(substitua pela URL real do vídeo)*
+🔗 [https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s](https://www.youtube.com/watch?v=sa6pfs2ZGPk&t=523s)
 
 ---
 
