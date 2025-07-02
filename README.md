@@ -64,9 +64,9 @@ cd scheduler
 
 # Execute o projeto
 ./mvnw spring-boot:run
+```
 A aplicação irá iniciar em http://localhost:8080
 As tarefas serão executadas no console conforme o agendamento configurado.
-```
 
 ⏱️ Exemplos de Expressões CRON
 CRON Expression	Significado
