@@ -36,19 +36,19 @@
 
 ## 📁 Estrutura do Projeto
 
-scheduler/
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── com/example/scheduler/
-│ │ ├── SchedulerApplication.java
-│ │ ├── tasks/
-│ │ │ └── SimpleTask.java
-│ │ └── services/
-│ │ └── ReportService.java
-│ └── resources/
-│ └── application.properties
-└── pom.xml
+scheduler/<br>
+├── src/<br>
+│ └── main/<br>
+│ ├── java/<br>
+│ │ └── com/example/scheduler/<br>
+│ │ ├── SchedulerApplication.java<br>
+│ │ ├── tasks/<br>
+│ │ │ └── SimpleTask.java<br>
+│ │ └── services/<br>
+│ │ └── ReportService.java<br>
+│ └── resources/<br>
+│ └── application.properties<br>
+└── pom.xml<br>
 
 yaml
 Copiar
